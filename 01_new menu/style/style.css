@@ -1,0 +1,692 @@
+*{
+    margin:0; 
+    padding:0; 
+}
+
+ul,ol{
+    list-style:none;
+    color:inherit;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+body{
+    font-family:"Roboto";
+    font-size:10px;
+    font-size:10px;
+    background: linear-gradient(90deg, #ffffff 50%, #F6E7CF 50% ) no-repeat;
+}
+
+/*header*/
+
+.mobile_toggle{display:none;}
+
+.mobile_menuBox{display:none;}
+
+
+.swiper-container{display:none;}
+header{
+    padding-top:3%;
+}
+
+header > .wrap{
+    display:flex; 
+    flex-direction: row;
+    font-size:1.2rem;
+    width:96.486%;
+    margin:auto; 
+}
+nav {
+    display:flex; 
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+
+nav > a:hover{
+    color:#CC344B;
+    font-weight:bold;
+}
+
+/*intro*/
+.intro{
+    width:100%
+}
+
+.intro > .wrap{
+    width:96.486%;
+    margin:auto;
+    display:flex; 
+    justify-content: space-between;
+    padding-top:5%;
+    box-sizing:border-box;
+    
+}
+
+.text_box{
+    text-align:right; 
+    font-size:1.1rem;
+    display:flex; 
+    align-items:flex-end;
+    padding-bottom:5%;
+    box-sizing:border-box;
+}
+
+.image{
+    width:50%;
+}
+
+.image > img{
+    font-size:0; 
+    max-width:100%;
+}
+
+/*numbers*/
+.numbers {
+    width:100%;
+}
+
+.numbers > .wrap{
+    width:96.486%;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-top:10%;
+    box-sizing:border-box;
+    
+}
+
+.ingredient{
+    text-align:center;
+    font-family:"Bodoni 72";
+    font-weight:bold;
+    font-style:italic;
+}
+
+.ingredient > li:first-child{
+    font-size:1.8rem;
+    
+    
+}
+.ingredient img{
+    max-width:90%;
+}
+
+.ingredient p{
+    font-size:1.6rem;
+}
+
+#mobile_numbers {
+    display:none;
+}
+
+.one{
+    width:100%;
+    padding-top:8%; 
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.one > .wrap{
+    width:96.486%;
+    display:block;
+    margin:auto;
+   
+    padding-left:32%;
+
+}
+
+.one img{
+    text-align:right;
+    max-width:60%;
+    margin-right:10%;
+    
+}
+
+.one p{
+    font-size:2rem;
+    font-family:"Bodoni 72";
+    font-weight:bold;
+    font-style:italic; 
+    position: absolute;
+    left:26%; top:44%;
+    
+}
+
+.two{
+    width:100%;
+    padding-top:8%; 
+    box-sizing: border-box;
+    position:relative;
+    
+}
+
+.two > .wrap{
+    width:96.486%;
+    margin:auto;
+    text-align:right;
+    display:block;
+    justify-content: flex-end;
+    flex-direction:row;
+    padding-right:10%; 
+    box-sizing:border-box;
+    
+}
+
+.two img{
+    max-width:60%;
+
+}
+.two p {
+    font-size:2rem;
+    font-family:"Bodoni 72";
+    font-weight:bold;
+    font-style:italic; 
+    position: absolute;; 
+    left:28%; top:60%;
+    box-sizing: border-box;
+}
+
+.three{
+    width:100%; 
+    padding-top:8%; 
+    box-sizing:border-box;
+    margin-bottom:5%;
+    position: relative;
+}
+
+.three > .wrap{
+    width:96.486%;
+    margin:auto;
+    display:block;
+    justify-content: flex-start;
+
+    
+}
+
+.three img{
+    max-width:50%;
+    margin-left:10%;
+    
+}
+.three p {
+    font-size:2rem;
+    font-family:"Bodoni 72";
+    font-weight:bold;
+    font-style:italic;
+    position: absolute;
+    top:40%; right:30%;
+    box-sizing:border-box;
+
+}
+
+
+/*footer*/
+
+footer{
+    width:100%; 
+    background-color: #E6E3DC;
+}
+
+footer>.wrap{
+    width:96.486%;
+    padding-top:5%; 
+    box-sizing:border-box;
+    margin:auto;
+    text-align:center;
+}
+
+.footer_logo{
+    max-width:60%;
+}
+
+.footer_menu{
+    display:flex; 
+    flex-direction:row; 
+    justify-content: space-around;
+    font-size:1.6em; 
+    margin-top:3%;
+}
+
+footer p{
+    font-size:1.3em; 
+    margin-top:4%;
+    line-height:2em;
+}
+
+@media screen and (min-width:1024px) and (max-width:1365px){
+
+    .mobile_menuBox{display:none;}
+
+    header > .wrap{
+        font-size:1rem;
+    }
+
+    .one{
+        margin-top:5%;
+    }
+
+    .one > .wrap{
+        padding-left:20%;
+    }
+    .one img{
+        max-width:80%;
+        margin:auto;
+    }
+
+    .one p {
+        text-align:center;
+        font-size:1.6rem;
+        left:18%;
+    }
+
+    .two img{
+        max-width:80%;
+    }
+
+    .two p{
+        text-align:center;
+        font-size:1.6rem;
+        left:20%;
+    }
+
+    .three img{
+        max-width:70%;
+    }
+
+    .three p{
+        text-align:center;
+        font-size:1.6rem;
+        right:13%;
+    }
+
+    #mobile_ingredient {
+        display:none;
+    }
+}
+
+
+
+/* Tablets in portrait mode, large display smartphones landscape mode*/
+@media screen and (min-width:768px) and (max-width:1023px){
+
+    .mobile_toggle{display:none;}
+    .mobile_menuBox{display:none;}
+
+    header > .wrap{
+        font-size:0.75rem;
+    }
+
+    .image {
+        width:80%;
+
+    }
+
+    .text_box{
+        font-size:0.9rem;
+    }
+
+    /*ingredient*/
+    
+    .ingredient{
+        margin-top:5%;
+    }
+
+    .ingredient>.wrap{
+        width:93.75%;
+    }
+    .ingredient img {
+        max-width:70%;
+    }
+
+    .ingredient p{
+        font-size:1.2rem;
+    }
+
+    #mobile_numbers {
+        display:none;
+    }
+
+    .one {
+        margin-top:10%;
+    }
+
+    .one>.wrap{
+        width:93.75%;
+        padding-left:22%;
+    }
+    .one img{
+        max-width:80%;
+    }
+
+    .one p {
+        left:15%; 
+        font-size:1.4rem;
+    }
+
+    .two {
+        margin-top:10%;
+    }
+
+    .two>.wrap{
+        width:93.75%;
+    }
+    .two img{
+        max-width:80%;
+    }
+
+    .two p {
+      
+        font-size:1.4rem;
+        left:18%;
+    }
+
+    .three {
+        margin:10% 0%;
+    }
+    .three>.wrap{
+        width:93.75%;
+    }
+    .three img{
+        max-width:70%;
+    }
+
+    .three p {
+        font-size:1.4rem;
+        right:14%;
+    }
+
+    #mobile_ingredient {
+        display:none;
+    }
+
+    /*footer*/
+    .footer_logo{
+        max-width:30%;
+    }
+
+    footer>.wrap{
+        width:93.75%;
+    }
+
+
+}
+
+
+/* Smartphones in portrait mode */
+@media screen and (max-width:420px){
+    
+    
+
+    header > .wrap{
+        width:92.3809%;
+    }
+    
+    nav{
+        display:none;
+    }
+    .mobile_menuBox{
+        z-index:99;
+        display:none; 
+        position: absolute;
+        flex-direction: column;
+        font-size:1rem;
+        text-align:center;
+        background-color:#f2f2f2;
+        padding:3% 0%;
+        width:100%; 
+        top:6%; left:0%;
+    }
+
+    .totalList{
+        display:flex; 
+        flex-direction:column; 
+        text-align:left;
+        padding-left:5%;
+        align-content:space-around;
+
+    }
+
+
+    .totalList > li{
+        width:100%; 
+        padding:3% 0%; 
+        box-sizing: border-box;
+      
+    }
+
+
+    .menu_slide{
+        font-size:0.8rem; 
+        background-color:#b0b0b0;
+        padding-left:4%;
+        margin-top:2%;
+        display:none;
+
+    }
+
+    .menu_slide > li{
+        width:100%; 
+        padding:2% 0%; 
+        box-sizing:border-box;
+        border-bottom:1px solid #bbbbbb;
+    }
+
+    .menu_slide>li> a:hover{
+        color:#CC344B;
+    }
+
+    .event_slide{
+        font-size:0.8rem; 
+        background-color:#b0b0b0;
+        padding-left:4%;
+        margin-top:2%;
+        display:none;
+
+    }
+
+    .event_slide > li{
+        width:100%; 
+        padding:2% 0%; 
+        box-sizing:border-box;
+        border-bottom:1px solid #bbbbbb;
+    }
+
+    .event_slide a:hover{
+        color:#CC344B;
+    }
+
+    .mobile_toggle{
+        display:flex;
+        flex-direction:row; 
+        justify-content: space-between;
+        width:100%; 
+        align-items: center;
+    }
+    
+    .mobile_logo{
+        width:30%;
+        padding-top:1%;
+        box-sizing:border-box;
+    }
+
+    .mobile_logo img{
+        max-width:100%;
+    }
+
+    .toggle{
+        margin-right:3%;
+        position: relative;
+    }
+
+    .intro > .wrap{
+        display:flex; 
+        flex-direction:column-reverse;
+        width:92.3809%;
+    }
+    .text_box{
+        margin-top:2%;
+        width:78%;
+        font-size:0.8rem;
+        text-align:left;
+    }
+
+    .image{
+        width:100%;
+    }
+
+
+
+    .one > .wrap{
+        width:92.3809%;
+        padding-left:15%;
+    }
+
+    .one img{
+        max-width:88%;
+        height:auto !important;
+        text-align:center;
+    }
+
+    .one p {
+        font-size:0.9rem;
+        left:6%; 
+    }
+
+    .two > .wrap{
+        width:92.3809%;
+    }
+
+    .two img{
+        max-width:100%;
+        text-align:center;
+        height:auto !important;
+    }
+
+    .two p {
+
+        font-size:0.9rem;
+        left:4%; top:45%;
+    }
+
+    .three{
+        margin-top:5%;
+    }
+
+    .three > .wrap{
+        width:92.3809%;
+    }
+
+    .three img{
+        max-width:100%;
+        text-align:center;
+        height:auto !important;
+        margin-left:0;
+    }
+
+    .three p {
+        right:5%;
+        font-size:0.9rem;
+    }
+
+    .ingredient{
+        display:none;
+    }
+
+    .numbers > .wrap{
+        width:92.3809%;
+
+    }
+
+    
+
+    #mobile_ingredient{
+        width:100%;
+    }
+    /*#mobile_numbers*/
+    .swiper-container{
+        width:92.3809%;
+        display:block;
+        font-family:"Bodoni 72";
+        cursor:pointer;
+        overflow:hidden;
+        margin:auto;
+        
+    }
+    
+
+    .swiper-wrapper{
+        width:300%;
+        display:flex;
+        flex-direction:row;
+        text-align:center;
+    
+    }
+
+    .swiper-slide{
+      height:100%;
+    }
+  
+
+    #mobile_ingredient > li:first-child{
+        font-size:1.4rem; 
+        font-weight:bolc; 
+        font-style:italic;
+    }
+   
+    #mobile_ingredient > li:nth-child(2){
+        width:70%; 
+        margin:auto;
+    }
+
+    #mobile_ingredient img{
+        max-width:70%;
+    }
+
+    #mobile_ingredient p{
+        font-size:1.1rem;
+        font-style:italic;
+    }
+
+    /*footer*/
+   footer > .wrap{
+
+    width:92.3809%;
+
+    
+   }
+
+   .footer_logo{
+       max-width:40%;
+       text-align:center;
+   }
+
+   .footer_menu{
+    font-size:0.9rem;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex; 
+    -ms-flex-wrap:wrap; 
+        flex-wrap:wrap;
+    width:90%;
+    margin:auto;
+   }
+
+   .footer_menu > li:nth-child(1),.footer_menu > li:nth-child(2),.footer_menu > li:nth-child(3),.footer_menu > li:nth-child(4){
+       margin-bottom:2%;
+   }
+
+   footer p {
+       font-size:0.6rem;
+       
+   }
+}
+
+
+
+

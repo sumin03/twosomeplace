@@ -10,10 +10,10 @@ Twosome place is the franchise cafe like starbucks in Korea.
 
 ## Table of Content 
 * **[Home](#home)**
-* **[New menu](#new menu)**
+* **[New_menu](#new_menu)**
 * **[Menu](#menu)**
-* **[Menu list](#menu list)** 
-* **[Menu detail](#menu detail)**
+* **[Menu_list](#menu_list)** 
+* **[Menu_detail](#menu_detail)**
 * **[Store](#store)**
 * **[Event](#event)**
 

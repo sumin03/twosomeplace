@@ -31,8 +31,8 @@ Twosome place is the franchise cafe like starbucks in Korea.
 * Geometric design
 
 ## Problems 
-Every skills were taught by myself so I was struggled to adjust everything. 
-If you leave the comments problems about my project, I will fix it. 
+Every skills (especially figma) were taught by myself so I was struggled to adjust everything. 
+
 
 
 

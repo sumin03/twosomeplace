@@ -43,3 +43,28 @@ _2.Trying to using Figma when I make layout <br>_
 _3.Using javascript and jquery at the same time<br>_
 _4.Using twosome place representative colors to show their identity <br>_
 _5.Trying to make every elements to appealing <br>_
+
+
+## Home
+
+#### First, 
+I wanted to make this part much more appealing to viewer, so I tried to change _header part_ in the different way. 
+And using all representative colors when I design, to make every one clearly know they are using TWOSOME PLACE website. 
+> 
+
+this is original twosome place website design 
+<img width="500" alt="origin" src="https://user-images.githubusercontent.com/77384682/106618892-571cf900-65b3-11eb-8ad8-d9c4ae467a7a.png">
+
+but I changed like this.. 
+
+
+
+Add those code on your code. 
+
+
+```html 
+<h1 class="ml2">Sunny mornings</h1>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+```

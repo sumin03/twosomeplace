@@ -52,19 +52,14 @@ I wanted to make this part much more appealing to viewer, so I tried to change _
 And using all representative colors when I design, to make every one clearly know they are using TWOSOME PLACE website. 
 > 
 
-this is original twosome place website design 
-<img width="500" alt="origin" src="https://user-images.githubusercontent.com/77384682/106618892-571cf900-65b3-11eb-8ad8-d9c4ae467a7a.png">
+this is the original twosome place website design 
+<img width="800" alt="origin" src="https://user-images.githubusercontent.com/77384682/106618892-571cf900-65b3-11eb-8ad8-d9c4ae467a7a.png">
 
 but I changed like this.. 
+![twosome_mine](https://user-images.githubusercontent.com/77384682/106622668-2d65d100-65b7-11eb-8983-407b4cba40c9.gif) 
 
 
 
 Add those code on your code. 
 
 
-```html 
-<h1 class="ml2">Sunny mornings</h1>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-```

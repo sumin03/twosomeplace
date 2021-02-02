@@ -1,7 +1,37 @@
+:root{
+    
+    /*color*/
+    --color-white: #ffffff; 
+    --color-black: #000; 
+    --color-red: #BE1F2E; 
+    --color-light-red:#CC344B; 
+    --color-dark-grey: #343135;
+    --color-grey:#C4C4C4;
+    --color-beige: #E6E3DC; 
+    --color-nav: #f2f2f2;
+    --color-slide:#b0b0b0;
+    --color-border-bottom:#bbbbbb;
+    --color-hover:#CF997B;
 
+    /*font-size*/
+
+    --nav-size: 1.5rem;
+    --text-new-size: 3rem;
+    --text-h3-size:4.3rem;
+    --small-size:1.25rem;
+    --footer-menu-size:1.3rem;
+   
+    
+
+    /*font-family*/
+    --font-special: "Bodoni 72"; 
+
+
+}
 *{
     margin:0; 
     padding:0; 
+    font-size:16px; 
 }
 
 ul,ol{
@@ -16,7 +46,6 @@ a{
 
 body{
     font-family:"Roboto";
-    font-size:10px;
 }
 
 .mobile_toggle{display:none;}
@@ -60,14 +89,14 @@ nav{
 nav > a{
   margin-bottom:30%;
   text-align:center;
-  font-size:1.2rem;
+  font-size:var(--nav-size);
 }
 nav > a:last-child{
     margin-bottom:73%;
 }
 
 nav > a:hover{
-    color:#CC344B;
+    color:var(--color-light-red);
     font-weight:bold;
 }
 
@@ -120,29 +149,29 @@ nav > a:hover{
 }
 
 .text > span{
-    font-size:3em; 
-    color:#FF0000;
+    font-size:var(--text-new-size);
+    color:var(--color-red); 
     font-weight:light; 
     font-style:italic;
 }
 
 .text>h3{
-    font-family:"Bodoni 72";
-    font-size:7em;
+    font-family:var(--font-special);
+    font-size:var(--text-h3-size);
     font-style:italic;
     margin-bottom:3%;
 }
 
 .text>p{
-    font-size:2em;
+    font-size:var(--small-size);
     line-height:1.5em;
     margin-bottom:20%;
 }
 
 .text >a{
     font-size:1.6em; 
-    color:white;
-    background-color:#343135;
+    color:var(--color-white);
+    background-color:var(--color-dark-grey);
     padding:3% 30%;
     border-radius:20px;
     font-weight:bold;
@@ -165,14 +194,16 @@ nav > a:hover{
 }
 
 .recommendation h4{
-    font-family:"Bodoni 72";
-    font-size:4em;
+    font-family:var(--font-special);
+    font-size:var(--text-new-size);
     text-align:center;
     margin-bottom:2%;
 }
 
 .recommendation p{
     text-align:center;
+    font-size:var(--small-size);
+    font-style: italic;
 }
 
 
@@ -192,7 +223,7 @@ nav > a:hover{
 .box_one{
     margin-top:10%;
     width:18%;
-    background-color:#C4C4C4;
+    background-color:var(--color-grey);
     text-align:center;
     border-radius: 30px;
     padding-bottom:1.2%; 
@@ -209,13 +240,12 @@ nav > a:hover{
     margin-top:-80%;
 }
 .box_one h2{
-    font-size:2.5em;
+    font-size:var(--nav-size);
    
 }
 
 .box_one p{
-    font-size:1.5em; 
-    line-height:1.8em;
+    font-size:1rem; 
     margin-top:25%;
     
 }
@@ -275,13 +305,13 @@ nav > a:hover{
 }
 .size > li:first-child{
     font-weight:bold; 
-    font-size:1.6em;
+    font-size:var(--nav-size);
 
 }
 
 
 .box_one:hover{
-    background-color:#CF997B;
+    background-color:var(--color-hover);
     transform:scale(1.1);
 }
 
@@ -297,7 +327,7 @@ nav > a:hover{
 select{
     background-color:transparent;
     border:none;
-    border-bottom:1px solid black;
+    border-bottom:1px solid var(--color-black);
     outline:none;
     
 }
@@ -322,10 +352,10 @@ select{
 }
 
 .event h2{
-    font-family:"Bodoni 72";
+    font-family:var(--font-special);
     font-style:italic;
     text-align:right;
-    font-size:5em;
+    font-size:var(--text-new-size);
 }
 
 .event img{
@@ -357,8 +387,8 @@ select{
 }
 
 .event  a{
-    background-color:#C4C4C4;
-    font-size:2.6em; 
+    background-color:var(--color-grey);
+    font-size:var(--small-size); 
     padding:0.8% 1.5%;
     position: absolute;
     top:85%;
@@ -384,8 +414,8 @@ select{
 }
 
 .news  h2{
-    font-size:5em;
-    font-family:"Bodoni 72";
+    font-size:var(--text-new-size);
+    font-family:var(--font-special);
     font-style:italic;
     margin-bottom:4%;
     text-align:center;
@@ -425,7 +455,7 @@ select{
 }
 
 .article_box > li:last-child{
-    font-size:2.5em;
+    font-size:var(--nav-size);
     text-align:center
 }
 
@@ -433,7 +463,7 @@ select{
 
 footer{
     width:100%; 
-    background-color: #E6E3DC;
+    background-color:var(--color-beige);
 }
 
 footer>.wrap{
@@ -452,12 +482,15 @@ footer>.wrap{
     display:flex; 
     flex-direction:row; 
     justify-content: space-around;
-    font-size:1.6em; 
     margin-top:3%;
 }
 
-footer p{
-    font-size:1.3em; 
+.footer_menu a{
+    font-size:var(--footer-menu-size);
+}
+
+.footer_p{
+    font-size:1rem; 
     margin-top:4%;
     line-height:2em;
 }
@@ -468,7 +501,51 @@ footer p{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:1024px) and (max-width:1365px){
+
+
+:root{
+
+    /*color*/
+    --color-white: #ffffff; 
+    --color-black: #000; 
+    --color-red: #BE1F2E; 
+    --color-light-red:#CC344B; 
+    --color-dark-grey: #343135;
+    --color-grey:#C4C4C4;
+    --color-beige: #E6E3DC; 
+    --color-nav: #f2f2f2;
+    --color-slide:#b0b0b0;
+    --color-border-bottom:#bbbbbb;
+    --color-hover:#CF997B;
+
+    /*font-size*/
+
+    --nav-size: 1.5rem;
+    --text-new-size: 2rem;
+    --text-h3-size:3.5rem;
+    --small-size:1.1rem;
+    --footer-menu-size:1.3rem;
+   
+    
+
+    /*font-family*/
+    --font-special: "Bodoni 72"; 
+
+
+}
 
 
     .mobile_toggle{display:none;}
@@ -484,17 +561,15 @@ footer p{
     header>.wrap{
         width:95.3125%;
         height:100%;
-        font-size:18px;
-        
     }
 
 
     nav img{
-        max-width:80%;
+        max-width:70%;
     }
     nav > a{
         margin-bottom:16%;
-        font-size:1.1rem;
+        font-size:var(--small-size);
     }
 
 
@@ -527,22 +602,22 @@ footer p{
     }
     
     .text>h3{
-        font-family:"Bodoni 72";
-        font-size:5em;
+        font-family:var(--font-special);
+        font-size:var(--text-h3-size);
         font-style:italic;
         margin-bottom:3%;
     }
     
     .text>p{
-        font-size:2em;
+        font-size:var(--small-size);
         line-height:1.5em;
         margin-bottom:20%;
     }
     
     .text >a{
-        font-size:1.6em; 
+        font-size:var(--small-size); 
         color:white;
-        background-color:#343135;
+        background-color:var(--color-dark-grey);
         padding:3% 30%;
         border-radius:20px;
         font-weight:bold;
@@ -570,6 +645,9 @@ footer p{
         margin-top:-73%;
     }
 
+    .size > li:first-child{
+        font-size:var(--small-size);
+    }
     .event{
         margin-top:13%;
         width:100%;
@@ -582,7 +660,7 @@ footer p{
     }
     .event h2{
         margin-top:5%;
-        font-size:6em;
+        font-size:var(--text-h3-size);
     }
 
     .event img{
@@ -611,16 +689,16 @@ footer p{
         
     }
 
-    .event  a{
-    
-        font-size:2em; 
+    .event a{
+        font-size:var(--footer-menu-size); 
         padding:0.8% 1.5%;
         position: absolute;
-        
         right:4%;
         text-align:center;
         border-radius:30px;
-    }.event{
+    }
+    
+    .event{
         margin-top:13%;
         width:100%;
         background:url(../img/event_background2.png)no-repeat;
@@ -632,7 +710,7 @@ footer p{
     }
     .event h2{
         margin-top:5%;
-        font-size:6em;
+        font-size:var(--text-h3-size);
     }
 
     .event img{
@@ -659,17 +737,6 @@ footer p{
         left:20%;
         max-width:35%;
         
-    }
-
-    .event  a{
-    
-        font-size:2em; 
-        padding:0.8% 1.5%;
-        position: absolute;
-        
-        right:4%;
-        text-align:center;
-        border-radius:30px;
     }
 
     .news>.wrap{
@@ -688,7 +755,7 @@ footer p{
     }
 
     .article_box > li:last-child{
-        font-size:2em;
+        font-size:var(--small-size);
     }
 
     .article_box > li:first-child{
@@ -703,7 +770,26 @@ footer p{
         width:95.3125%;
     }
 
+    .footer_menu a{
+        font-size:var(--small-size);
+    }
+
+    .footer_p{
+        font-size:1rem;
+        line-height:1.5em;
+    }
 }
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------*/
+
+
+
 
 
 
@@ -723,7 +809,7 @@ footer p{
     nav{
         display:none;
         width:40%; 
-        background-color:#f2f2f2;
+        background-color:var(--color-nav);
     }
 
     nav > a{
@@ -754,7 +840,7 @@ footer p{
         flex-direction: column;
         font-size:1rem;
         text-align:center;
-        background-color:#f2f2f2;
+        background-color:var(--color-nav);
         padding:3% 0%;
         width:100%; 
         top:12%; left:0%;
@@ -781,7 +867,7 @@ footer p{
 
     .menu_slide{
         font-size:0.8rem; 
-        background-color:#b0b0b0;
+        background-color:var(--color-slide);
         padding-left:4%;
         margin-top:2%;
         display:none;
@@ -792,7 +878,7 @@ footer p{
         width:100%; 
         padding:2% 0%; 
         box-sizing:border-box;
-        border-bottom:1px solid #bbbbbb;
+        border-bottom:1px solid var(--color-border-bottom);
     }
 
     .menu_slide>li> a:hover{
@@ -801,7 +887,7 @@ footer p{
 
     .event_slide{
         font-size:0.8rem; 
-        background-color:#b0b0b0;
+        background-color:var(--color-slide);
         padding-left:4%;
         margin-top:2%;
         display:none;
@@ -812,7 +898,7 @@ footer p{
         width:100%; 
         padding:2% 0%; 
         box-sizing:border-box;
-        border-bottom:1px solid #bbbbbb;
+        border-bottom:1px solid var(--color-border-bottom);
     }
 
     .event_slide a:hover{
@@ -933,13 +1019,13 @@ footer p{
     }
 
     .event a {
-        font-size: 1.5em;
+        font-size:var(--small-size);
         top: 70%;
         right: 4%;
     }
 
     .news h2{
-        font-size:4em;
+        font-size:var(--nav-size);
     }
 
     .article{
@@ -1013,7 +1099,7 @@ footer p{
         flex-direction: column;
         font-size:1rem;
         text-align:center;
-        background-color:#f2f2f2;
+        background-color:var(--color-nav);
         padding:3% 0%;
         width:100%; 
         top:5%; left:0%;
@@ -1040,7 +1126,7 @@ footer p{
 
     .menu_slide{
         font-size:0.8rem; 
-        background-color:#b0b0b0;
+        background-color:var(--color-slide);
         padding-left:4%;
         margin-top:2%;
         display:none;
@@ -1060,7 +1146,7 @@ footer p{
 
     .event_slide{
         font-size:0.8rem; 
-        background-color:#b0b0b0;
+        background-color:var(--color-slide);
         padding-left:4%;
         margin-top:2%;
         display:none;
@@ -1071,7 +1157,7 @@ footer p{
         width:100%; 
         padding:2% 0%; 
         box-sizing:border-box;
-        border-bottom:1px solid #bbbbbb;
+        border-bottom:1px solid var(--color-border-bottom);
     }
 
     .event_slide a:hover{

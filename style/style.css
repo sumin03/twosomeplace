@@ -200,7 +200,7 @@ nav > a:hover{
     margin-bottom:2%;
 }
 
-.recommendation p{
+.recommendation>p{
     text-align:center;
     font-size:var(--small-size);
     font-style: italic;
@@ -628,6 +628,11 @@ footer>.wrap{
 
     }
 
+    .recommendation p {
+        text-align:center;
+        font-style: italic;
+    }
+
     .box{
         margin-top:15%;
     }
@@ -796,6 +801,39 @@ footer>.wrap{
 /* Tablets in portrait mode, large display smartphones landscape mode*/
 @media screen and (min-width:768px) and (max-width:1023px){
 
+
+
+    root{
+    
+        /*color*/
+        --color-white: #ffffff; 
+        --color-black: #000; 
+        --color-red: #BE1F2E; 
+        --color-light-red:#CC344B; 
+        --color-dark-grey: #343135;
+        --color-grey:#C4C4C4;
+        --color-beige: #E6E3DC; 
+        --color-nav: #f2f2f2;
+        --color-slide:#b0b0b0;
+        --color-border-bottom:#bbbbbb;
+        --color-hover:#CF997B;
+    
+        /*font-size*/
+    
+        --nav-size: 1.3rem;
+        --text-new-size: 2.5rem;
+        --text-h3-size:3.5rem;
+        --small-size:1.1rem;
+        --footer-menu-size:1.2em;
+       
+        
+    
+        /*font-family*/
+        --font-special: "Bodoni 72"; 
+    
+    
+    }
+
     header{
         background:url(../img/welcome\ twosome_1024.png)no-repeat;
         background-position-x:36%;
@@ -813,7 +851,7 @@ footer>.wrap{
     }
 
     nav > a{
-        font-size:1.6em;
+        font-size:var(--nav-size);
         margin-bottom:30%;
         display:none;
     }
@@ -826,7 +864,7 @@ footer>.wrap{
     .toggle{
         display:block;
         font-weight:bold;
-        font-size:2.5em;
+        font-size:var(--text-h3-size);
         margin-right:1%;
     }
 
@@ -882,7 +920,7 @@ footer>.wrap{
     }
 
     .menu_slide>li> a:hover{
-        color:#CC344B;
+        color:var(--color-light-red);
     }
 
     .event_slide{
@@ -902,7 +940,7 @@ footer>.wrap{
     }
 
     .event_slide a:hover{
-        color:#CC344B;
+        color:var(--color-light-red);
     }
 
     .mobile_toggle{
@@ -950,11 +988,11 @@ footer>.wrap{
     }
 
     .text > span {
-        font-size:1.8em;
+        font-size:var(--text-new-size);
     }
 
     .text > h3{
-        font-size:6em;
+        font-size:var(--text-h3-size);
     }
 
     /*recommendation*/
@@ -963,6 +1001,10 @@ footer>.wrap{
         width:93.75%;
     }
 
+    .recommendation p {
+        text-align:center;
+        font-style:italic;
+    }
 
     .box_one{
         width:30%;
@@ -972,11 +1014,19 @@ footer>.wrap{
     }
     
     .box_one h2{
-        font-size:2em;
+        font-size:var(--nav-size);
     }
 
     .box_one p{
-        font-size:1.3em;
+        font-size:1rem;
+    }
+
+    .size > li:first-child{
+        font-size:var(--small-size);
+    }
+
+    select{
+        font-size:0.9rem;
     }
 
 
@@ -1025,7 +1075,7 @@ footer>.wrap{
     }
 
     .news h2{
-        font-size:var(--nav-size);
+        font-size:2rem;
     }
 
     .article{
@@ -1037,11 +1087,11 @@ footer>.wrap{
     }
     
     .article_box > li:last-child {
-        font-size: 1.5em;
+        font-size: 1rem;
     }
 
     .article_box img {
-        max-width:80%;
+        max-width:70%;
     }
    
 
@@ -1055,12 +1105,53 @@ footer>.wrap{
     footer>.wrap{
         width:93.75%;
     }
+
+    .footer_menu a{
+        font-size:1rem;
+    }
+
+    .footer_p{
+        font-size:0.9rem; 
+        line-height:1.5em;
+    }
 }
 
 
 
 /* Smartphones in portrait mode */
 @media screen and (max-width:420px){
+
+
+    root{
+    
+        /*color*/
+        --color-white: #ffffff; 
+        --color-black: #000; 
+        --color-red: #BE1F2E; 
+        --color-light-red:#CC344B; 
+        --color-dark-grey: #343135;
+        --color-grey:#C4C4C4;
+        --color-beige: #E6E3DC; 
+        --color-nav: #f2f2f2;
+        --color-slide:#b0b0b0;
+        --color-border-bottom:#bbbbbb;
+        --color-hover:#CF997B;
+    
+        /*font-size*/
+    
+        --nav-size: 1.6rem;
+        --text-new-size: 1.8rem;
+        --text-h3-size:2rem;
+        --small-size:1rem;
+        --footer-menu-size:1.2em;
+       
+        
+    
+        /*font-family*/
+        --font-special: "Bodoni 72"; 
+    
+    
+    }
 
     header{
         background:url(../img/mobile_background.png)no-repeat;
@@ -1205,20 +1296,24 @@ footer>.wrap{
     }
 
     .text >span{
-        font-size:1.3em;
+        font-size:var(--small-size);
     }
 
     .text > h3{
-        font-size:3em;
+        font-size:var(--text-new-size);
     }
 
     .text > p{
-        font-size:1.4em;
+        font-size:0.9rem;
         line-height:1.2em;
     }
 
+    .text > a{
+        font-size: var(--small-size);
+    }
+
     .pic{
-        width:70%; 
+        width:50%; 
         margin-left:0;
         margin-top:30%;
     }
@@ -1238,12 +1333,14 @@ footer>.wrap{
     }
 
     .recommendation h4{
-        font-size:2.5em;
+        font-size:var(--nav-size);
     }
 
     .recommendation p{
-        font-size:1.4em;
+        font-size:0.9rem;
         margin-bottom:8%;
+        text-align:center; 
+        font-style:italic;
     }
 
     .box{
@@ -1282,10 +1379,19 @@ footer>.wrap{
     }
 
     .box_one > h2{
-        font-size:1.2rem;
+        font-size:var(--small-size);
     }
     .box_one p{
         margin-top:10%;
+        font-size:0.7rem;
+    }
+
+
+    .size > li:first-child{
+        font-size:var(--small-size);
+    }
+
+    select{
         font-size:0.8rem;
     }
     .swiper-slide{
@@ -1311,7 +1417,7 @@ footer>.wrap{
         height:105vh;
     }
     .event h2{
-        font-size:2rem;
+        font-size:var(--text-new-size);
         text-align:left;
     }
 
@@ -1340,7 +1446,7 @@ footer>.wrap{
     }
 
     .event a{
-        font-size:1rem;
+        font-size:var(--small-size);
         padding:0.8% 2%;
         right:300px;
     }
@@ -1353,7 +1459,7 @@ footer>.wrap{
     }
 
     .news h2{
-        font-size:1.4rem;
+        font-size:var(--nav-size);
         margin-bottom:10%;
     }
 
@@ -1392,7 +1498,7 @@ footer>.wrap{
     }
 
     .article_box img{
-        max-width:60%;
+        max-width:50%;
     }
 
     .article_box>li:last-child{
@@ -1413,7 +1519,7 @@ footer>.wrap{
    }
 
    .footer_menu{
-    font-size:0.9rem;
+    
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex; 
@@ -1423,13 +1529,18 @@ footer>.wrap{
     margin:auto;
    }
 
+   .footer_menu a{
+       font-size: 0.9rem;
+       
+   }
+
    .footer_menu > li:nth-child(1),.footer_menu > li:nth-child(2),.footer_menu > li:nth-child(3),.footer_menu > li:nth-child(4){
        margin-bottom:2%;
    }
 
-   footer p {
+   .footer_p {
        font-size:0.6rem;
-       
+       line-height:1.4em;
    }
        
 

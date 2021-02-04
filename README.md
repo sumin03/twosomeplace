@@ -70,7 +70,84 @@ this is the original twosome place website design
 <img width="800" alt="origin" src="https://user-images.githubusercontent.com/77384682/106618892-571cf900-65b3-11eb-8ad8-d9c4ae467a7a.png">
 
 but I changed like this.. 
+
 ![twosome_mine](https://user-images.githubusercontent.com/77384682/106622668-2d65d100-65b7-11eb-8983-407b4cba40c9.gif) 
+
+
+>> Skills that I used for this website 
+
+Mostly I tried to use flex box when I make this website for responsive. 
+Also I used library for mobile page. 
+
+```html 
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+```
+I added this library on my html <head></head>
+
+```html 
+ <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="box_one">
+                            <img src="img/3.png">
+                            <h2>Iced Cafe Latte</h2>
+                            <p>풍부하고 진한 농도의 에스프레소와<br>
+                            시원한 우유가 어우러진 부드러운 에스프레소 음료
+                            </p>
+                            <div class="hover" id="mobile_not">
+                                <ul class="size">
+                                    <li>SIZE</li>
+                                    <li>
+                                        <select name="beverage size">
+                                            <option value="regular">Regular</option>
+                                            <option value="large">Large</option>
+                                            <option value="Max">Max</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                                <ul class="size">
+                                    <li>TYPE</li>
+                                    <li>
+                                        <select name="beverage Type">
+                                            <option value="hot">Hot</option>
+                                            <option value="Iced">Iced</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                                <ul class="size">
+                                    <li>BEANS</li>
+                                    <li>
+                                        <select name="beverage beans">
+                                            <option value="black">Black Ground</option>
+                                            <option value="aroma">Aroma Note</option>
+        
+                                        </select>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+```
+And then I wrote my code like this to make mobile touch slider. 
+I wanted to give difference, so I made this slider to work when you swipe up and down.
+then you can see another menu. 
+
+here is the gif file 👇
+![mobile](https://user-images.githubusercontent.com/77384682/106939885-334ce500-6764-11eb-98e6-048806e49476.gif)
+
+
+
+
+
+ 
+
+
 
 
 

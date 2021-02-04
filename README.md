@@ -139,7 +139,7 @@ I wanted to give difference, so I made this slider to work when you swipe up and
 then you can see another menu. 
 
 here is the gif file 👇
-![mobile](https://user-images.githubusercontent.com/77384682/106939885-334ce500-6764-11eb-98e6-048806e49476.gif)
+<img width="500px" height="750px" alt="mobile slider" src="https://user-images.githubusercontent.com/77384682/106939885-334ce500-6764-11eb-98e6-048806e49476.gif">
 
 
 

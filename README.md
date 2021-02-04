@@ -31,7 +31,19 @@ Twosome place is the franchise cafe like starbucks in Korea.
 * Geometric design
 
 ## Problems 
-Every skills (especially figma) were taught by myself so I was struggled to adjust everything. 
+Every skills (especially figma) were taught by myself so I was struggled to adjust everything.
+I also had problems Making code efficient way but after studying Using 'root' element on CSS.
+I tried to fix the code by myself. I will attach the difference below so Please Check it out :) 
+
+
+<img width="1213" alt="스크린샷 2021-02-04 오후 10 56 58" src="https://user-images.githubusercontent.com/77384682/106902627-62e7f700-673c-11eb-8c24-efc434b9ad42.png">
+This is the one I tried to change. Using ':root' property looks better/ change the css value easier. 
+
+As you can see on my github css history 
+<img width="1213" alt="스크린샷 2021-02-04 오후 10 57 15" src="https://user-images.githubusercontent.com/77384682/106902804-91fe6880-673c-11eb-9176-bbac7cfe168e.png">
+
+There has differece before and now! 
+Using root can be easier to change value later. 
 
 
 
@@ -43,6 +55,8 @@ _2.Trying to using Figma when I make layout <br>_
 _3.Using javascript and jquery at the same time<br>_
 _4.Using twosome place representative colors to show their identity <br>_
 _5.Trying to make every elements to appealing <br>_
+
+
 
 
 ## Home
@@ -60,6 +74,8 @@ but I changed like this..
 
 
 
-Add those code on your code. 
+
+
+
 
 

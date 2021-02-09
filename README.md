@@ -56,6 +56,8 @@ Can you see the differences?
 If you want to see more check my css history on my github! 
 
 
+
+
 ## What I like the most on my website 
 
 1. When it is become mobile webpage, I changed **recommendation part** with the slider but I wanted to give differences with others page.
@@ -65,7 +67,29 @@ and when you hover it, You can see different options that gives you more informa
 
 <img width="500px" height="750px" alt="mobile slider" src="https://user-images.githubusercontent.com/77384682/106939885-334ce500-6764-11eb-98e6-048806e49476.gif">
 
+
+
  
+2. I twisted the layout little bit on the event part to give more fun! to users. 
+As you can see, normal website use the layour normal way, but I wanted to give more fun! so try to put the element different way. 
+
+<img width="416" alt="스크린샷 2021-02-09 오후 11 17 14" src="https://user-images.githubusercontent.com/77384682/107376301-141bd200-6b2d-11eb-82a8-cb0b4d0cfc38.png">
+
+
+
+3. I always cannot stand the website doesn't look beautiful or ineffcient. 
+Original website, using a typical layout to show their beverage, so I changed like this 
+
+<img width="416" alt="스크린샷 2021-02-09 오후 11 23 10" src="https://user-images.githubusercontent.com/77384682/107377146-fe5adc80-6b2d-11eb-92b4-6102d308dcd7.png">
+
+I gave same geometric shape with the main page, So you can feel **unity** on this webpage. 
+And Thanks to those little icons, you can notice what I tried to give information about this beverage. If you click this, you can see much more detail 
+explanation about it. 
+Also design **more button**, To see more information without messing up the webpage while you are using mobile phone. 
+
+
+
+
 
 
  

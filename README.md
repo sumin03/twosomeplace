@@ -48,7 +48,7 @@ for who doesn't want to download special app for this but still want to check it
 
 #### Changed css code 
 
-I didn't know using ':root' element before so wrote every element values by myself, even though I kept writing same values. 
+I didn't know using **':root'** element before so wrote every element values by myself, even though I kept writing same values. 
 So After studying ':root' element so I changed it like this 
 <img width="1213" alt="스크린샷 2021-02-04 오후 10 56 58" src="https://user-images.githubusercontent.com/77384682/106902627-62e7f700-673c-11eb-8c24-efc434b9ad42.png">
 <img width="1213" alt="스크린샷 2021-02-04 오후 10 57 15" src="https://user-images.githubusercontent.com/77384682/106902804-91fe6880-673c-11eb-9176-bbac7cfe168e.png">

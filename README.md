@@ -56,9 +56,14 @@ Can you see the differences?
 If you want to see more check my css history on my github! 
 
 
+## What I like the most on my website 
+
+1. When it is become mobile webpage, I changed **recommendation part** with the slider but I wanted to give differences with others page.
+So I made this slider up & down. so you can swipe it from the top to down. 
+and when you hover it, You can see different options that gives you more information about that menu. 
 
 
-
+<img width="500px" height="750px" alt="mobile slider" src="https://user-images.githubusercontent.com/77384682/106939885-334ce500-6764-11eb-98e6-048806e49476.gif">
 
  
 

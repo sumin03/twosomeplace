@@ -34,6 +34,17 @@ _Twosome place is the franchise cafe like starbucks in Korea._
 5. To make it user-friendly, I tried to design / code for responsive webpage 
 
 
+## What I change in code 
+
+As you can see this original website is not a responsive webpage so I tried to make it responsive webpage 
+for who doesn't want to download special app for this but still want to check it out on their mobile phone. 
+
+_break point is.._
+(min-width:1024px) and (max-width:1365px)
+(min-width:768px) and (max-width:1023px) Tablets in portrait mode, large display smartphones landscape mode
+(max-width:420px) Smartphones in portrait mode
+
+
 
 
 

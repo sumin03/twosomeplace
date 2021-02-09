@@ -10,6 +10,9 @@ Twosome place is the franchise cafe like starbucks in Korea.
 
 ## The reason I tried to change this website. 
 
+### 📍https://www.twosome.co.kr:7009/main.asp 
+> This is original twosome place website 
+
 1. Using layout inefficiently
 
 2. Not user-friendly design
@@ -23,7 +26,17 @@ Twosome place is the franchise cafe like starbucks in Korea.
 
 2. Trying to design to see the information better way 
 
-3. Trying to using all their representative colors to emphasize their indentity. 
+3. Trying to using all their representative colors to emphasize their indentity
+
+4. Using geometric shape to make it vibrant
+
+5. To make it user-friendly, I tried to design / code for responsive webpage 
+
+
+
+
+
+
 
  
 

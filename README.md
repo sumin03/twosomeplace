@@ -41,8 +41,8 @@ for who doesn't want to download special app for this but still want to check it
 
 #### _break point is.._
 
-(min-width:1024px) and (max-width:1365px)
-(min-width:768px) and (max-width:1023px) Tablets in portrait mode, large display smartphones landscape mode
+(min-width:1024px) and (max-width:1365px) <br>
+(min-width:768px) and (max-width:1023px) Tablets in portrait mode, large display smartphones landscape mode <br>
 (max-width:420px) Smartphones in portrait mode
 
 

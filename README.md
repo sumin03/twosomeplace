@@ -1,5 +1,5 @@
 # ☕️ twosome place ☕️
-Twosome place is the franchise cafe like starbucks in Korea. 
+_Twosome place is the franchise cafe like starbucks in Korea._ 
 
 ### 📍https://sumin03.github.io/twosomeplace/. 
 <img width="1791" alt="twosome" src="https://user-images.githubusercontent.com/77384682/106617878-559f0100-65b2-11eb-8353-ac6d7b022dc8.png">

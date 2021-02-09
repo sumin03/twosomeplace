@@ -89,8 +89,8 @@ Also design **more button**, To see more information without messing up the webp
 
 
 
-4. I used **flex-box** to transform the layout easily. <br>
-It is very annoyed when you are using mobile phone but the layout is still suitable for the desktop screen.
+4. I used **flex-box** to transform the layout easily. 
+It is very annoyed when you are using mobile phone but the layout is still suitable for the desktop screen.<br>
 So I used **flex-box** for mobile user. 
 
 <img width="500" alt="스크린샷 2021-02-09 오후 11 30 03" src="https://user-images.githubusercontent.com/77384682/107377968-e041ac00-6b2e-11eb-9803-35e5e745e227.png"> <br>
